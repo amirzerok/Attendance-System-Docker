@@ -163,21 +163,17 @@ export function Layout2({ children, isLoggedIn }: Layout2Props) { // اضافه 
       ]
     },
     {
-      text: '',
+      text: 'مدیر ها ',
       id: 4,
       icon: <AddCircleOutlineOutlined color="secondary" />,
       path: false,
       sublists: [
         {
-          text: ' ',
+          text: ' اضافه کردن مدیر',
           icon: <SubjectOutlined color="secondary" />,
-          path: '/'
+          path: '/register2'
         },
-        {
-          text: ' ',
-          icon: <SubjectOutlined color="secondary" />,
-          path: '/'
-        }
+        
       ]
     }
   ];
