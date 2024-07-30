@@ -48,9 +48,9 @@ sudo ufw allow 5000
 ### متغیرهای محیطی پایگاه داده
 در فایل docker-compose.yml، تنظیمات پایگاه داده PostgreSQL به صورت زیر است:
 
+```sh
 environment:
   POSTGRES_DB: mydatabase
   POSTGRES_USER: myuser
   POSTGRES_PASSWORD: mypassword
-
-
+```
