@@ -14,7 +14,7 @@
 ابتدا، مخزن را کلون کنید:
 
 ```sh
-git clone https://github.com/username/repository.git
+git clone https://github.com/amirzerok/Attendance-System-Docker.git
 cd repository
 ```
 ### 2. ساخت و اجرای کانتینرها
@@ -35,7 +35,7 @@ Python Service: از طریق مرورگر به آدرس http://server_ip_addres
 ```
 
 
-4###. باز کردن پورت‌ها در فایروال (در صورت نیاز)
+4. باز کردن پورت‌ها در فایروال (در صورت نیاز)
 اگر از فایروال استفاده می‌کنید، ممکن است نیاز باشد که پورت‌های مربوطه را باز کنید. برای مثال، در اوبونتو:
 ```sh
 sudo ufw allow 3000
