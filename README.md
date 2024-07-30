@@ -24,7 +24,7 @@ cd repository
 ```sh
 docker-compose build
 docker-compose up -d
-
+```
 
 
 ### 3. 3. دسترسی به سرویس‌ها:
@@ -32,3 +32,22 @@ docker-compose up -d
 Next.js: از طریق مرورگر به آدرس http://server_ip_address:3000 بروید.
 NestJS: از طریق مرورگر به آدرس http://server_ip_address:3001 بروید.
 Python Service: از طریق مرورگر به آدرس http://server_ip_address:5000 بروید.
+
+
+
+4. باز کردن پورت‌ها در فایروال (در صورت نیاز)
+اگر از فایروال استفاده می‌کنید، ممکن است نیاز باشد که پورت‌های مربوطه را باز کنید. برای مثال، در اوبونتو:
+
+sudo ufw allow 3000
+sudo ufw allow 3001
+sudo ufw allow 5000
+
+متغیرهای محیطی پایگاه داده
+در فایل docker-compose.yml، تنظیمات پایگاه داده PostgreSQL به صورت زیر است:
+
+environment:
+  POSTGRES_DB: mydatabase
+  POSTGRES_USER: myuser
+  POSTGRES_PASSWORD: mypassword
+
+
