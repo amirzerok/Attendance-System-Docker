@@ -15,7 +15,7 @@ https://next-naft.liara.run/
 
 ### 1. کلون کردن مخزن گیت هاب
 
-ابتدا، مخزن گیت هاب را کلون کنید. بدین منظور دستورات زیر را در محیط cmd به ترتیب وارد کنید:
+ابتدا، مخزن گیت هاب را کلون کنید. بدین منظور دستورات زیر را در محیط ترمینال به ترتیب وارد کنید:
 
 ```sh
 git clone https://github.com/amirzerok/Attendance-System-Docker.git
@@ -23,23 +23,17 @@ cd repository
 ```
 ### 2. ساخت و اجرای کانتینرها با استفاده از فایل docker-compose.yml
 
-برای ساخت و اجرای کانتینرها، دستورات زیر را در محیط cmd به ترتیب وارد کنید:
+برای ساخت و اجرای کانتینرها، دستورات زیر را در محیط ترمینال به ترتیب وارد کنید:
 
 ```sh
 docker-compose build
 docker-compose up -d
 ```
-
-
 ### 3. تست UP بودن سرویس های next و nest که در بالا دستور بالا آمدن آنها را وارد کردیم :
 ```sh
 Next.js: http://server_ip_address:3000 
 NestJS:  http://server_ip_address:3001
 ```
-
-
-
-
 ### 4. باز کردن پورت‌ها در فایروال (در صورت نیاز)
 اگر از فایروال استفاده می‌کنید، ممکن است نیاز باشد که پورت‌های مربوطه را باز کنید. برای مثال، در اوبونتو:
 ```sh
@@ -47,16 +41,6 @@ sudo ufw allow 3000
 sudo ufw allow 3001
 ```
 ###
-### متغیرهای محیطی پایگاه داده
-در فایل docker-compose.yml، تنظیمات پایگاه داده PostgreSQL به صورت زیر است:
-
-```sh
-environment:
-  POSTGRES_DB: mydatabase
-  POSTGRES_USER: myuser
-  POSTGRES_PASSWORD: mypassword
-```
-
 
 # اجرا بدون داکر  
 
