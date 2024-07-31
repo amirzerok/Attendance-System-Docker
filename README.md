@@ -81,6 +81,12 @@ $ npm run start:dev
 # production mode
 $ npm run start:prod
 ```
+
+
+# آموزش دپلوی و استقرار کد پایتون مربوط به ...... در سرور لوکال مستقر در شبکه داخلی
+
+
+
  
 ### 3. main.py
 
