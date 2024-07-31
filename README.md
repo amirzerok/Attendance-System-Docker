@@ -29,8 +29,8 @@ docker-compose up -d
 ```
 ### 3. تست UP بودن سرویس های next و nest که در بالا دستور بالا آمدن آنها را وارد کردیم :
 ```sh
-Next.js: http://server_ip_address:3000 
-NestJS:  http://server_ip_address:3001
+Next.js: http://locallhost:3000 
+NestJS:  http://locallhost:3001
 ```
 ### 4. باز کردن پورت‌ها در فایروال (در صورت نیاز)
 اگر از فایروال استفاده می‌کنید، ممکن است نیاز باشد که پورت‌های مربوطه را باز کنید. برای مثال، در اوبونتو:
