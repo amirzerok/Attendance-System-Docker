@@ -31,7 +31,6 @@ docker-compose up -d
 ```sh
 Next.js: از طریق مرورگر به آدرس http://server_ip_address:3000 بروید.
 NestJS: از طریق مرورگر به آدرس http://server_ip_address:3001 بروید.
-Python Service: از طریق مرورگر به آدرس http://server_ip_address:5000 بروید.
 ```
 
 
@@ -42,7 +41,6 @@ Python Service: از طریق مرورگر به آدرس http://server_ip_addres
 ```sh
 sudo ufw allow 3000
 sudo ufw allow 3001
-sudo ufw allow 5000
 ```
 ###
 ### متغیرهای محیطی پایگاه داده
