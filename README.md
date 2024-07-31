@@ -68,3 +68,15 @@ environment:
 
 
 ### 1. Next js 
+
+```sh
+npm install
+#
+npm run build
+#
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+```
