@@ -97,4 +97,15 @@ $ npm run start:dev
 $ npm run start:prod
 ```
  
-### 3. python
+### 3. main.py
+
+```sh
+# نصب MySQL Connector
+pip install mysqlclient
+
+# نصب Redis-py
+pip install redis
+
+# اجرای کد
+python script.py
+```
