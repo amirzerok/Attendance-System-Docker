@@ -127,4 +127,7 @@ pip install persiantools
 
 # Install MySQL Connector for connecting to MySQL database
 pip install mysql-connector-python
+
+# run code
+python script.py
 ```
