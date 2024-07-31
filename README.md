@@ -31,10 +31,10 @@ docker-compose up -d
 ```
 
 
-### 3. دسترسی به سرویس‌ها:
+### 3. تست UP بودن سرویس های next و nest که در بالا دستور بالا آمدن آنها را وارد کردیم :
 ```sh
-Next.js: از طریق مرورگر به آدرس http://server_ip_address:3000 بروید.
-NestJS: از طریق مرورگر به آدرس http://server_ip_address:3001 بروید.
+Next.js: http://server_ip_address:3000 
+NestJS:  http://server_ip_address:3001
 ```
 
 
