@@ -109,3 +109,22 @@ pip install redis
 # run code
 python script.py
 ```
+ 
+### 3. camera.py
+
+```sh
+# Install OpenCV for image processing and face detection
+pip install opencv-python
+
+# Install Redis client for connecting to Redis database
+pip install redis
+
+# Install NumPy for numerical operations
+pip install numpy
+
+# Install PersianTools for working with Jalali dates
+pip install persiantools
+
+# Install MySQL Connector for connecting to MySQL database
+pip install mysql-connector-python
+```
