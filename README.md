@@ -63,7 +63,7 @@ environment:
 - [Node-js](https://nodejs.org/en)
 - [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 
-## مراحل نصب پکیج ها 
+## مراحل نصب و جرا  
 
 
 
