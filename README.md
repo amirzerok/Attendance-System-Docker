@@ -64,3 +64,7 @@ environment:
 - [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 
 ## مراحل نصب پکیج ها 
+
+
+
+### 1. Next js 
