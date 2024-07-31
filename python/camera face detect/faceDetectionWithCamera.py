@@ -44,7 +44,7 @@ def compare_faces(face1, face2):
     gray_face1 = cv2.resize(face1, (100, 100))
     gray_face2 = cv2.resize(face2, (100, 100))
     
-    # محاسبه میانگین مربعاتی خطا بین دو تصویر
+    # محاسبه میانگین خطا بین دو تصویر
     error = np.square(gray_face1 - gray_face2).mean()
     
     # اگر مقدار خطای محاسبه شده کمتر از یک حد آستانه باشد، دو تصویر به یکدیگر شباهت دارند
