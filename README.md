@@ -60,7 +60,7 @@ environment:
 
 ## پیش‌نیازها
 
-[Nodejs](https://nodejs.org/en)
-[Npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+- [Nodejs](https://nodejs.org/en)
+- [Npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 
 ## مراحل نصب پکیج ها 
