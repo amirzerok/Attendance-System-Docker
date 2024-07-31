@@ -81,7 +81,7 @@ yarn dev
 pnpm dev
 ```
 
-### 1. Nest js
+### 2. Nest js
 
 ```sh
 $ npm install
