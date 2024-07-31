@@ -88,7 +88,7 @@ $ npm run start:prod
 
 
  
-### 3. main.py
+### 3. faceDetectionWithCamera.py
 
 ```sh
 # install MySQL Connector
@@ -101,7 +101,7 @@ pip install redis
 python script.py
 ```
  
-### 3. camera.py
+### 3. syncRedisMysqlDatabases.py
 
 ```sh
 # Install OpenCV for image processing and face detection
