@@ -59,3 +59,8 @@ environment:
 # اجرا بدون داکر  
 
 ## پیش‌نیازها
+
+[Nodejs](https://nodejs.org/en)
+[Npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+
+## مراحل نصب پکیج ها 
