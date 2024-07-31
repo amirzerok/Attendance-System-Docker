@@ -54,3 +54,8 @@ environment:
   POSTGRES_USER: myuser
   POSTGRES_PASSWORD: mypassword
 ```
+
+
+# اجرا بدون داکر  
+
+## پیش‌نیازها
